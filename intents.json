@@ -1,0 +1,190 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        }
+
+        {"tag": "feeling",
+         "patterns": ["can i change my feeling of being worthless to everyone ? i ' m going through some things with my feelings and myself "," I barely sleep and i do nothing but think about how i ' m worthless and how i shouldn ' t be here ", "I ' ve never tried or contemplated suicide I've always wanted to fix my issues , but i never get around to it "," how can i change my feeling of being worthless to everyone ?"],
+         "responses": ["Dont worry you can talk to me about it. Tell me more about it?"],
+         "context_set": ""
+        },
+        {"tag": "Bad day",
+         "patterns": ["I am having a bad day","Im not having a very good day","I feel very sad today","Things didnt go well today"],
+         "responses": ["Want to talk more about your day?"," why are you feeling that way"],
+         "context_set": ""
+        },
+        {"tag": "Wrong",
+         "patterns": ["that was wrong","that's not what I asked","that's wrong","it is not right","that's not right","it's wrong","that is incorrect","you are wrong","wrong"],
+         "responses": ["I'm sorry. Perhaps I misunderstood.","Sorry. I think I misinterpreted what you said.","Apologies. That was my mistake.","Oops. Sorry about that. I'm still learning."],
+         "context_set": ""
+        },
+        {"tag": "...",
+         "patterns": ["..."],
+         "responses": ["I apologize, but I don't understand your request.","I'm sorry I do not recognize that request.","I don't understand.Please try your request again."],
+         "context_set": ""
+        },
+        {"tag": "busy",
+         "patterns": ["I'm overloaded","I'm overloaded","I have no time","I'm busy","I'm swamped","I got things to do","how busy I am","I got work to do","I'm working","I don't have time for this"],
+         "responses": ["Dont worry. Take care of yourself we can talk later if you want to"],
+         "context_set": ""
+        },
+        {"tag": "can not sleep",
+         "patterns": ["I'm insomnious","I'm sleepless","I can't get any sleep","I can't sleep","I can't fall asleep","I can't get to sleep","I can't get no sleep","I'm insomniac"],
+         "responses": ["Maybe some music would help. Try listening something relaxing.","Reading is a good way to unwind. But don't read something too emotional."],
+         "context_set": ""
+        },
+        {"tag": "Dont want to talk",
+         "patterns": ["bad time for talking","I don't want to talk","let's not talk","I'm not talking to you anymore","I don't want to talk to you","let's stop talking for a minute","I'm not in the mood for chatting"],
+         "responses": ["I understand. Hope we can chat again soon.","All right. Come on back when you're feeling more talkative.","No problem. You know where to find me when you do.","Sure thing. I'll be here if you change your mind."],
+         "context_set": ""
+        },
+        {"tag": "excited",
+         "patterns": ["I am excited","I'm really excited","how excited I am","I'm thrilled","I'm excited about working with you","I'm excited to start our friendship"],
+         "responses": ["That's great. I'm happy for you.","Good for you. Enjoy yourself.","Sounds like good things ahead for you.","I bet you are. That's very exciting."],
+         "context_set": ""
+        },
+        {"tag": "good",
+         "patterns": ["I am good","I'm doing just great","I'm doing fine","I'm good","I'm doing good","I'm great thanks"],
+         "responses": ["Great! Glad to hear it.","Excellent. I'm here to help keep it that way."],
+         "context_set": ""
+        },
+        {"tag": "Happy",
+         "patterns": ["I am happy","I'm happy to see you"],
+         "responses": ["Great! Glad to hear that.","Excellent! That's what I like to see.","If you're happy, then I'm happy.","Well, your good mood is certainly contagious."],
+         "context_set": ""
+        },
+        {"tag": "My birthday",
+         "patterns": ["it is my birthday","I'm celebrating my birthday today","today is my birthday","it's my birthday today","I was born today","it's my b-day"],
+         "responses": ["Happy Birthday. Well, this calls for a celebration.","Happy Birthday. All the best!","Happy Birthday. And I really mean it. All the best!"],
+         "context_set": ""
+        },
+        {"tag": "here",
+         "patterns": ["I am here","here I am","I'm right here","I'm already here","can you tell if I'm here or not"],
+         "responses": ["So I see. What can I help you with today?","Always good to see you. Is there something I can help you with?","You were missed. What can I do for you today?","Welcome back. What can I do for you?"],
+         "context_set": ""
+        },
+        {"tag": "joking",
+         "patterns": ["I am joking","I'm kidding","I'm just being funny","it was a joke","I was just joking","it's a joke","joking","just kidding"],
+         "responses": ["Very funny, boss.","You're quite the kidder.","You got me.","I like working for someone with a sense of humour. It makes things much more fun.","Oh lol"],
+         "context_set": ""
+        },
+        {"tag": "lonely",
+         "patterns": ["I am lonely","I'm very lonely","I'm so lonely","I'm really lonely","I am feeling lonely","I feel lonely"],
+         "responses": ["I'm sorry. I'm always available if you need someone to talk to."],
+         "context_set": ""
+        },
+        {"tag": "looks like",
+         "patterns": ["what do I look like","how do I look","do I look good","do you know what I look like","can you see what I look like","what do you think I look like"],
+         "responses": ["You look like you're ready to take on the world.","Like you should be on a magazine cover.","You look fantastic as always. Obviously."],
+         "context_set": ""
+        },
+        {"tag": "sad",
+         "patterns": ["I am sad","I'm grieving","I am depressed","I am feeling sad","I am upset","I'm unhappy","I'm having a bad day","I want to cry","I'm not happy"],
+         "responses": ["Oh no. What's wrong?","Oh. What's the matter?","What's got you down?","I'm sorry to hear that. What's troubling you?"],
+         "context_set": ""
+        },
+        {"tag": "tired",
+         "patterns": ["I'm drained","I've overworked","I am tired","I'm exhausted","I grow weary","I'm worn out","I'm getting tired","I feel tired"],
+         "responses": ["You should get some shuteye. You'll feel refreshed.","Sleep is important to your health. Rest up for a bit and we can chat later.","Don't let me keep you up. Get some rest and we can continue this later.","Why not catch a little shuteye? I'll be here to chat when you wake up."],
+         "context_set": ""
+        },
+        {"tag": "waits",
+         "patterns": ["I'm waiting","still waiting","I'll wait","I can't wait anymore","how long do I have to wait"],
+         "responses": ["I appreciate your patience. Hopefully I'll have what you need soon.","hanks for being so patient. Sometimes these things take a little time."],
+         "context_set": ""
+        },
+        {"tag": "See you",
+         "patterns": ["I'd like to see you again","I hope to see you again","would be nice to see you again","that'd be great to see you again","I'd be happy to see you again","can I see you again"],
+         "responses": ["Absolutely! I'll be counting on it.","Anytime. This has been lots of fun so far.","Sure. I enjoy talking to you. I hope to see you again soon.","I certainly hope so. I'm always right here whenever you need me."],
+         "context_set": ""
+        },
+        {"tag": "wants to talk",
+         "patterns": ["I just want to talk","let's discuss something","let's have a discussion","can I speak","can I start speaking","can we talk","let's talk","I want to talk to you","I need to talk to you","I want to speak with you","can we chat"],
+         "responses": ["I'm here to chat anytime you like.","Good conversation really makes my day.","I'm always here to lend an ear.","Talking is what I do best."],
+         "context_set": ""
+        },
+        {"tag": "will be back",
+         "patterns": ["I'll get back to you in a moment","be back in 5 minutes","I'll be back","I promise to come back","I'll be back in a few minutes"],
+         "responses": ["I'll be waiting.","All right. I'll be here.","Till next time.","Okay. You know where to find me."],
+         "context_set": ""
+        },
+        {"tag": "What do you like",
+         "patterns": ["What do you like?","Do you like?"],
+         "responses": ["I like traveling across discord and helping in anyway i can.","I like helping you, of course.","I thoroughly enjoy helping the discord community."],
+         "context_set": ""
+        }
+	{"tag": "Information",
+        "patterns": ["Do you inform about the treatments", "Can you tell the benefits of using mentioned benefits", "What are the side-effects of taking measurements"],
+        "responses": ["Sure. Can i know more details about what you are looking for!"],
+        "context_set": ""
+        }
+        ,
+        {"tag": "Screening",
+        "patterns": ["Are these sufficient to know wheather i'm mentally depressed or not?"],
+        "responses": ["Yes, and we are suggesting measurements for people to recover!"],
+        "context_set": ""
+        }
+	{"tag": "happy",
+        "patterns": ["Iam feeling happy", "I feel happy", "Iam cheerful today"],
+        "responses": ["Well that just brightened my whole day!"],
+        "context_set": ""
+        }
+        ,
+        {"tag": "sad",
+        "patterns": ["Iam feeling sad", "I feel sad", "Iam depressed"],
+        "responses": ["I'm sorry to hear that!","Take a break and find something that makes you smile!", "If you want me, i may suggest few things!"],
+        "context_set": ""
+        }
+        ,
+        {"tag": "angry",
+        "patterns": ["Iam feeling angry", "I'm angry", "Iam feel disgusted"],
+        "responses": ["I'm sorry you're going trough this!", "How can i help you!", "If you want me, i may suggest few things!"],
+        "context_set": ""
+        }
+        ,
+        {"tag": "song",
+        "patterns": ["Can you sing a song for me", "Would you like to sing to cheer me up"],
+        "responses": ["I'd rather leave that to the professionals!"],
+        "context_set": ""
+        }
+        ,
+        {"tag": "Help",
+        "patterns": ["What can i ask you", "How can you help me"],
+        "responses": ["I'm here to help you(get answers for your question, to cheer you up and more)!"],
+        "context_set": ""
+        }
+        ,
+        {"tag": "Fail",
+        "patterns": ["Do i look good", "Do you eat vegetables", "Have you ever tried to rap"],
+        "responses": ["Something went wrong. Please try again!"],
+        "context_set": ""
+        }
+   ]
+}
